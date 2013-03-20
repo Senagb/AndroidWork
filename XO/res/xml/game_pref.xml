@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ListPreference
+        android:entries="@array/Colors"
+        android:entryValues="@array/Colors_coress"
+        android:key="Background"
+        android:title="@string/Background_color"
+         android:defaultValue="2" />
+    <ListPreference
+        android:entries="@array/Colors"
+        android:entryValues="@array/Colors_coress"
+        android:key="line_color "
+        android:title="@string/Line_color"
+         android:defaultValue="3" />
+    <ListPreference
+        android:entries="@array/Colors"
+        android:entryValues="@array/Colors_coress"
+        android:key="X_color"
+        android:title="@string/X_color"
+         android:defaultValue="0" />
+    <ListPreference
+        android:entries="@array/Colors"
+        android:entryValues="@array/Colors_coress"
+        android:key="O_Color"
+        android:title="@string/O_color"
+        android:defaultValue="0" />
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="Mute"
+        android:title="@string/mute" />
+
+</PreferenceScreen>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tic Tac Toe</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="new_game">New Game</string>
+    <string name="Clear_score">Clear_score</string>
+    <string name="options">options</string>
+    <string name="Help">Help</string>
+    <string name="Background_color">"Background color "</string>
+    <string name="Line_color">Line Color</string>
+    <string name="X_color">X color</string>
+    <string name="O_color">O color</string>
+
+    <string-array name="Colors">
+        <item>Red</item>
+        <item>Green</item>
+        <item>Blue</item>
+        <item>White</item>
+    </string-array>
+    <string-array name="Colors_coress">Be the first to get three in a row! This multiplayer game is played on a 3 by 3 game 
+board. One player is X, the Other O. Players alternate placing their X or O on one of the
+empry fields. The game ends when one player gets three in a row or when there is no empty field left, in which case the game ends in a tie.
+        Be the first to get three in a row! This multiplayer game is played on a 3 by 3 game 
+board. One player is X, the Other O. Players alternate placing their X or O on one of the
+empry fields. The game ends when one player gets three in a row or when there is no empty field left, in which case the game ends in a tie.
+        Be the first to get three in a row! This multiplayer game is played on a 3 by 3 game 
+board. One player is X, the Other O. Players alternate placing their X or O on one of the
+empry fields. The game ends when one player gets three in a row or when there is no empty field left, in which case the game ends in a tie.
+        Be the first to get three in a row! This multiplayer game is played on a 3 by 3 game 
+board. One player is X, the Other O. Players alternate placing their X or O on one of the
+empry fields. The game ends when one player gets three in a row or when there is no empty field left, in which case the game ends in a tie.
+        
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+        <string name="mute">mute</string>
+
+</resources>

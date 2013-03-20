@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Main_menu" 
+    android:screenOrientation="portrait">
+
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="102dp"
+        android:background="@drawable/exit" />
+
+    <Button
+        android:id="@+id/new_game"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/toggleButton1"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="34dp"
+        android:background="@drawable/newgame" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_above="@+id/exit"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="32dp"
+        android:text="ToggleButton"
+        android:textOff="Game mode:Multiplayer"
+        android:textOn="Game mode:Single player" 
+        android:background="#0099CC"/>
+
+</RelativeLayout>
