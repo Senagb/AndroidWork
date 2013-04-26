@@ -1,3 +1,4 @@
 AndroidWork
 ===========
-This repo holds data about my clg assignemnt over the third year 
+Third year android work 2 games and program 
+
